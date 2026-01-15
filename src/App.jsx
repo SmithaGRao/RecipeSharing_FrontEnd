@@ -84,7 +84,7 @@ export default function App() {
   useEffect(() => {
     const fetchRecipes = async () => {
       try {
-        const response = await fetch('https://recipe-sharing-website-backend.onrender.com/api/recipes');
+        const response = await fetch('https://recipesharing-backend-x3m4.onrender.com/api/recipes');
         console.log("Fetch response:", response);
         if (response.ok) {
           const data = await response.json();

@@ -23,7 +23,7 @@ export default function CreateRecipe() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('https://recipe-sharing-website-backend.onrender.com/api/recipes', {
+            const response = await fetch('https://recipesharing-backend-x3m4.onrender.com/api/recipes', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
